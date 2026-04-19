@@ -1,0 +1,2006 @@
+{
+  "runId": "demo-2026-04-19",
+  "startedAt": "2026-04-19T09:00:00.000Z",
+  "completedAt": "2026-04-19T09:01:42.000Z",
+  "config": {
+    "fundSize": 500000,
+    "targetPortfolioSize": 25,
+    "blockedGeos": [
+      "CN",
+      "RU"
+    ],
+    "blockedSectors": [],
+    "maxChequeSize": 25000,
+    "minStage": "pre_seed",
+    "maxStage": "series_a",
+    "fundsToMirror": [
+      "yc",
+      "a16z",
+      "spc",
+      "founders-fund"
+    ]
+  },
+  "deals": [
+    {
+      "crustdataCompanyId": 101,
+      "name": "Stitch AI",
+      "primaryDomain": "stitch.ai",
+      "fundingDate": "2026-03-04",
+      "roundType": "series_a",
+      "roundAmountUsd": 22000000,
+      "totalInvestmentUsd": 28000000,
+      "investors": [
+        "Andreessen Horowitz",
+        "Lux Capital",
+        "Sequoia Capital"
+      ],
+      "headcountTotal": 38,
+      "hqCountry": "United States",
+      "hqCity": "San Francisco",
+      "industries": [
+        "AI",
+        "Developer Tools",
+        "Infrastructure"
+      ],
+      "description": "Open-core agentic eval platform that lets engineering teams diff LLM behavior across model versions in CI.",
+      "yearFounded": "2024",
+      "source": "structured",
+      "fundId": "a16z"
+    },
+    {
+      "crustdataCompanyId": 102,
+      "name": "Helix Bio",
+      "primaryDomain": "helixbio.com",
+      "fundingDate": "2026-02-19",
+      "roundType": "series_a",
+      "roundAmountUsd": 35000000,
+      "totalInvestmentUsd": 41000000,
+      "investors": [
+        "Founders Fund",
+        "Khosla Ventures",
+        "ARCH Venture Partners"
+      ],
+      "headcountTotal": 51,
+      "hqCountry": "United States",
+      "hqCity": "San Francisco",
+      "industries": [
+        "Biotech",
+        "AI",
+        "Synthetic Biology"
+      ],
+      "description": "Generative protein design platform for antibody discovery, training a foundation model on cryo-EM data.",
+      "yearFounded": "2023",
+      "source": "structured",
+      "fundId": "founders-fund"
+    },
+    {
+      "crustdataCompanyId": 103,
+      "name": "Tessera Robotics",
+      "primaryDomain": "tesserarobots.com",
+      "fundingDate": "2026-01-29",
+      "roundType": "seed",
+      "roundAmountUsd": 9500000,
+      "totalInvestmentUsd": 9500000,
+      "investors": [
+        "South Park Commons",
+        "Lux Capital"
+      ],
+      "headcountTotal": 14,
+      "hqCountry": "United States",
+      "hqCity": "San Francisco",
+      "industries": [
+        "Robotics",
+        "AI",
+        "Manufacturing"
+      ],
+      "description": "Bimanual manipulation robots for SMB manufacturing — software-first stack with rapid teach-by-demo.",
+      "yearFounded": "2024",
+      "source": "structured",
+      "fundId": "spc"
+    },
+    {
+      "crustdataCompanyId": 104,
+      "name": "PorterRoad",
+      "primaryDomain": "porterroad.com",
+      "fundingDate": "2026-03-15",
+      "roundType": "seed",
+      "roundAmountUsd": 4200000,
+      "totalInvestmentUsd": 4200000,
+      "investors": [
+        "Y Combinator",
+        "Soma Capital",
+        "General Catalyst"
+      ],
+      "headcountTotal": 6,
+      "hqCountry": "United States",
+      "hqCity": "Brooklyn",
+      "industries": [
+        "Climate",
+        "Logistics",
+        "B2B"
+      ],
+      "description": "Software for the cold-chain trucking long tail — broker-neutral telematics + load matching.",
+      "yearFounded": "2025",
+      "source": "structured",
+      "fundId": "yc"
+    },
+    {
+      "crustdataCompanyId": 105,
+      "name": "Morwenna",
+      "primaryDomain": "morwenna.energy",
+      "fundingDate": "2026-02-02",
+      "roundType": "series_a",
+      "roundAmountUsd": 18000000,
+      "totalInvestmentUsd": 22500000,
+      "investors": [
+        "Founders Fund",
+        "Lowercarbon Capital"
+      ],
+      "headcountTotal": 24,
+      "hqCountry": "United Kingdom",
+      "hqCity": "Bristol",
+      "industries": [
+        "Climate",
+        "Energy",
+        "Marine"
+      ],
+      "description": "Tidal stream power generators built from rotating-mass turbines, targeting 24/7 baseload behind the meter.",
+      "yearFounded": "2022",
+      "source": "structured",
+      "fundId": "founders-fund"
+    },
+    {
+      "crustdataCompanyId": 106,
+      "name": "Kindly Labs",
+      "primaryDomain": "kindly.health",
+      "fundingDate": "2026-03-20",
+      "roundType": "seed",
+      "roundAmountUsd": 6800000,
+      "totalInvestmentUsd": 6800000,
+      "investors": [
+        "Y Combinator",
+        "Khosla Ventures"
+      ],
+      "headcountTotal": 9,
+      "hqCountry": "United States",
+      "hqCity": "New York",
+      "industries": [
+        "Healthcare",
+        "AI",
+        "Mental Health"
+      ],
+      "description": "Voice-first agent for behavioral-health intake calls — replaces front-desk triage at outpatient clinics.",
+      "yearFounded": "2025",
+      "source": "structured",
+      "fundId": "yc"
+    }
+  ],
+  "theses": [
+    {
+      "crustdataCompanyId": 101,
+      "thesisOneLiner": "LLM apps are software, and software needs CI.",
+      "beliefStatement": "As model upgrades become the dominant source of regressions, eval-as-code in CI becomes a non-negotiable layer of the LLM dev stack — owned by infra, not data science.",
+      "marketKeywords": [
+        "LLM evaluation",
+        "AI infrastructure"
+      ],
+      "adjacentIndustries": [
+        "Developer Tools",
+        "Observability"
+      ],
+      "marketTiming": "platform-shift",
+      "wedge": "Diff-style eval reports inside GitHub PRs.",
+      "whyNow": "Frontier models ship every 6 weeks; teams have no rollback playbook.",
+      "redFlagsForCounterparts": [
+        "consumer-app wrappers",
+        "no CI integration"
+      ],
+      "resolvedIndustries": [
+        "Computer Software",
+        "Internet"
+      ],
+      "newsItems": [
+        {
+          "title": "Stitch raises $22M Series A from a16z",
+          "url": "https://example.com/stitch",
+          "publishDate": "2026-03-05"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 102,
+      "thesisOneLiner": "Generative biology becomes IP-defensible only with proprietary wet-lab data.",
+      "beliefStatement": "The next defensible AI bio companies own a closed-loop between in-silico design and in-house wet-lab validation; pure compute plays will commoditize.",
+      "marketKeywords": [
+        "protein design",
+        "antibody discovery"
+      ],
+      "adjacentIndustries": [
+        "Biotechnology",
+        "Pharmaceuticals"
+      ],
+      "marketTiming": "platform-shift",
+      "wedge": "Cryo-EM data flywheel paired with generative model.",
+      "whyNow": "Cryo-EM throughput just 10x'd; sequence-only models are plateauing.",
+      "redFlagsForCounterparts": [
+        "sequence-only foundation models",
+        "no wet lab"
+      ],
+      "resolvedIndustries": [
+        "Biotechnology"
+      ],
+      "newsItems": [
+        {
+          "title": "Helix Bio's $35M Series A",
+          "url": "https://example.com/helix",
+          "publishDate": "2026-02-20"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 103,
+      "thesisOneLiner": "Foundation-model robotics wins the SMB long tail before factories.",
+      "beliefStatement": "The first durable robotics businesses will sell to thousands of SMBs (job shops, kit packers) where teach-by-demo dramatically outperforms hard-coded automation, not to lighthouse F500s.",
+      "marketKeywords": [
+        "bimanual manipulation",
+        "industrial robotics"
+      ],
+      "adjacentIndustries": [
+        "Robotics",
+        "Industrial Automation"
+      ],
+      "marketTiming": "early-application",
+      "wedge": "Software-defined dual-arm cell at $80k all-in.",
+      "whyNow": "Open-source manipulation policies (RT-X, Pi 0.5) hit production-ready in 2026.",
+      "redFlagsForCounterparts": [
+        "humanoid form factors",
+        "F500-only GTM"
+      ],
+      "resolvedIndustries": [
+        "Robotics",
+        "Industrial Automation"
+      ],
+      "newsItems": [
+        {
+          "title": "Tessera demos at SPC Fellowship Demo Day",
+          "url": "https://example.com/tessera",
+          "publishDate": "2026-01-29"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 104,
+      "thesisOneLiner": "Software eats the long tail of US trucking — starting with cold chain.",
+      "beliefStatement": "Tier-2/3 cold-chain truckers are the last unsoftwared piece of US logistics. A vertical SaaS that bundles telematics + broker-neutral load matching can compound margin away from incumbents.",
+      "marketKeywords": [
+        "cold chain logistics",
+        "freight brokerage"
+      ],
+      "adjacentIndustries": [
+        "Transportation",
+        "Logistics & Supply Chain"
+      ],
+      "marketTiming": "vertical-incumbent-play",
+      "wedge": "Free telematics dongle bundled with margin-taking marketplace.",
+      "whyNow": "FMCSA ELD mandate 2.0 forces the long tail to digitize in 2026.",
+      "redFlagsForCounterparts": [
+        "asset-heavy fleets",
+        "warehouse-only plays"
+      ],
+      "resolvedIndustries": [
+        "Transportation/Trucking/Railroad",
+        "Logistics and Supply Chain"
+      ],
+      "newsItems": [
+        {
+          "title": "PorterRoad joins YC W26",
+          "url": "https://example.com/porterroad",
+          "publishDate": "2026-03-15"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 105,
+      "thesisOneLiner": "Tidal stream is the only renewable that's both 24/7 and forecastable.",
+      "beliefStatement": "Once tidal stream LCOE clears the threshold of $80/MWh, behind-the-meter island and coastal industrial loads become a step-function market that solar/wind cannot serve.",
+      "marketKeywords": [
+        "tidal energy",
+        "marine renewables"
+      ],
+      "adjacentIndustries": [
+        "Renewables & Environment",
+        "Energy"
+      ],
+      "marketTiming": "picks-and-shovels",
+      "wedge": "Rotating-mass turbines that survive in shallow estuaries.",
+      "whyNow": "First UK contracts-for-difference auction including tidal closes Q4 2026.",
+      "redFlagsForCounterparts": [
+        "wave-energy startups",
+        "deep-water-only plays"
+      ],
+      "resolvedIndustries": [
+        "Renewables & Environment"
+      ],
+      "newsItems": [
+        {
+          "title": "Morwenna's $18M Series A",
+          "url": "https://example.com/morwenna",
+          "publishDate": "2026-02-02"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 106,
+      "thesisOneLiner": "Behavioral health intake is the wedge for healthcare voice agents.",
+      "beliefStatement": "Behavioral-health clinics have the worst phone-tree problem in healthcare; voice agents that get 80% of intake right unlock real ARR per clinic and bypass EHR integration headaches.",
+      "marketKeywords": [
+        "healthcare voice agents",
+        "clinical intake"
+      ],
+      "adjacentIndustries": [
+        "Hospital & Health Care",
+        "Mental Health Care"
+      ],
+      "marketTiming": "early-application",
+      "wedge": "DEA/HIPAA-compliant voice stack pre-sold to outpatient psych networks.",
+      "whyNow": "Telehealth parity sunset means clinics need higher throughput per FTE.",
+      "redFlagsForCounterparts": [
+        "chatbot-first general health",
+        "no clinical advisory"
+      ],
+      "resolvedIndustries": [
+        "Hospital & Health Care",
+        "Mental Health Care"
+      ],
+      "newsItems": [
+        {
+          "title": "Kindly Labs joins YC W26",
+          "url": "https://example.com/kindly",
+          "publishDate": "2026-03-20"
+        }
+      ]
+    }
+  ],
+  "counterparts": [
+    {
+      "crustdataCompanyId": 201,
+      "mirroredFromCompanyId": 101,
+      "mirroredFromName": "Stitch AI",
+      "fundId": "a16z",
+      "name": "Snapeval",
+      "primaryDomain": "snapeval.dev",
+      "description": "GitHub-native LLM eval suite for backend engineers.",
+      "fundingDate": "2026-01-12",
+      "roundType": "pre_seed",
+      "roundAmountUsd": 1400000,
+      "totalInvestmentUsd": 1400000,
+      "investors": [
+        "Initialized Capital"
+      ],
+      "headcountTotal": 5,
+      "hqCity": "Berlin",
+      "hqCountry": "Germany",
+      "yearFounded": "2025",
+      "thesisAlignment": 88,
+      "thesisRationale": "Same wedge (CI-first eval), but a non-US team going after the EU compliance angle — Stitch isn't there yet.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 84,
+        "signals": [
+          "pre-seed cheque",
+          "team of 5",
+          "no Tier-1 syndicate yet"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 202,
+      "mirroredFromCompanyId": 101,
+      "mirroredFromName": "Stitch AI",
+      "fundId": "a16z",
+      "name": "Promptkit",
+      "primaryDomain": "promptkit.io",
+      "description": "Open-source eval harness with hosted runs.",
+      "fundingDate": "2025-11-08",
+      "roundType": "seed",
+      "roundAmountUsd": 3500000,
+      "totalInvestmentUsd": 3500000,
+      "investors": [
+        "Bloomberg Beta",
+        "Essence VC"
+      ],
+      "headcountTotal": 11,
+      "hqCity": "San Francisco",
+      "hqCountry": "United States",
+      "yearFounded": "2024",
+      "thesisAlignment": 78,
+      "thesisRationale": "Adjacent — open-source flywheel matters; a16z thesis tilts CI-side, this is more notebook-first.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 70,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 203,
+      "mirroredFromCompanyId": 102,
+      "mirroredFromName": "Helix Bio",
+      "fundId": "founders-fund",
+      "name": "Cryolab AI",
+      "primaryDomain": "cryolab.ai",
+      "description": "Cryo-EM data co-op + generative antibody design.",
+      "fundingDate": "2026-02-25",
+      "roundType": "seed",
+      "roundAmountUsd": 6000000,
+      "totalInvestmentUsd": 6000000,
+      "investors": [
+        "Civilization Ventures"
+      ],
+      "headcountTotal": 8,
+      "hqCity": "Boston",
+      "hqCountry": "United States",
+      "yearFounded": "2025",
+      "thesisAlignment": 91,
+      "thesisRationale": "Mirrors the closed-loop wet-lab + generative thesis exactly, but at seed and with a data-co-op moat angle.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 80,
+        "signals": [
+          "seed round",
+          "wet-lab partnership signal",
+          "<10 heads"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 204,
+      "mirroredFromCompanyId": 102,
+      "mirroredFromName": "Helix Bio",
+      "fundId": "founders-fund",
+      "name": "Antifold",
+      "primaryDomain": "antifold.bio",
+      "description": "Open-source antibody design models with paid hosted inference.",
+      "fundingDate": "2025-09-30",
+      "roundType": "pre_seed",
+      "roundAmountUsd": 800000,
+      "totalInvestmentUsd": 800000,
+      "investors": [
+        "Pillar VC"
+      ],
+      "headcountTotal": 4,
+      "hqCity": "Cambridge",
+      "hqCountry": "United Kingdom",
+      "yearFounded": "2024",
+      "thesisAlignment": 64,
+      "thesisRationale": "Sequence-only model — close to Helix's red flag, but team has wet-lab access via partnership.",
+      "timingMatch": false,
+      "llmRedFlag": "No in-house wet lab — lukewarm on differentiation.",
+      "valuationProxy": {
+        "score": 88,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 205,
+      "mirroredFromCompanyId": 103,
+      "mirroredFromName": "Tessera Robotics",
+      "fundId": "spc",
+      "name": "Polyarm",
+      "primaryDomain": "polyarm.co",
+      "description": "Dual-arm cell sold as monthly leasing to job shops.",
+      "fundingDate": "2026-02-10",
+      "roundType": "pre_seed",
+      "roundAmountUsd": 2200000,
+      "totalInvestmentUsd": 2200000,
+      "investors": [
+        "Tuesday Capital",
+        "Anorak Ventures"
+      ],
+      "headcountTotal": 6,
+      "hqCity": "Pittsburgh",
+      "hqCountry": "United States",
+      "yearFounded": "2025",
+      "thesisAlignment": 90,
+      "thesisRationale": "Same SMB-first hypothesis, leasing GTM resonates with capital-constrained shops.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 82,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 206,
+      "mirroredFromCompanyId": 103,
+      "mirroredFromName": "Tessera Robotics",
+      "fundId": "spc",
+      "name": "Loophand",
+      "primaryDomain": "loophand.io",
+      "description": "Teach-by-demo controllers retrofitting existing UR cobots.",
+      "fundingDate": "2026-03-08",
+      "roundType": "pre_seed",
+      "roundAmountUsd": 1700000,
+      "totalInvestmentUsd": 1700000,
+      "investors": [
+        "Compound",
+        "Arc Search"
+      ],
+      "headcountTotal": 4,
+      "hqCity": "Toronto",
+      "hqCountry": "Canada",
+      "yearFounded": "2025",
+      "thesisAlignment": 81,
+      "thesisRationale": "Retrofit angle is even more capital-light; thesis-aligned.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 86,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 207,
+      "mirroredFromCompanyId": 104,
+      "mirroredFromName": "PorterRoad",
+      "fundId": "yc",
+      "name": "Chillship",
+      "primaryDomain": "chillship.app",
+      "description": "Free telematics for refrigerated trucks; revenue from broker spread.",
+      "fundingDate": "2026-01-22",
+      "roundType": "pre_seed",
+      "roundAmountUsd": 1100000,
+      "totalInvestmentUsd": 1100000,
+      "investors": [
+        "Liquid 2 Ventures"
+      ],
+      "headcountTotal": 5,
+      "hqCity": "Atlanta",
+      "hqCountry": "United States",
+      "yearFounded": "2025",
+      "thesisAlignment": 87,
+      "thesisRationale": "Same exact wedge as PorterRoad. Cheaper and earlier; deserves a real cheque.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 87,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 208,
+      "mirroredFromCompanyId": 104,
+      "mirroredFromName": "PorterRoad",
+      "fundId": "yc",
+      "name": "Boxhaul",
+      "primaryDomain": "boxhaul.com",
+      "description": "Asset-light dry-van brokerage with AI dispatch.",
+      "fundingDate": "2025-12-15",
+      "roundType": "seed",
+      "roundAmountUsd": 4400000,
+      "totalInvestmentUsd": 4400000,
+      "investors": [
+        "Greylock",
+        "Bedrock"
+      ],
+      "headcountTotal": 12,
+      "hqCity": "Chicago",
+      "hqCountry": "United States",
+      "yearFounded": "2024",
+      "thesisAlignment": 55,
+      "thesisRationale": "Adjacent but dry-van not cold-chain; misses the wedge specificity.",
+      "timingMatch": false,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 65,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 209,
+      "mirroredFromCompanyId": 105,
+      "mirroredFromName": "Morwenna",
+      "fundId": "founders-fund",
+      "name": "Tideturbine",
+      "primaryDomain": "tideturbine.eu",
+      "description": "Estuary-class tidal stream generators for behind-the-meter loads.",
+      "fundingDate": "2026-02-05",
+      "roundType": "seed",
+      "roundAmountUsd": 5500000,
+      "totalInvestmentUsd": 5500000,
+      "investors": [
+        "Carbon13",
+        "Fifty Years"
+      ],
+      "headcountTotal": 9,
+      "hqCity": "Edinburgh",
+      "hqCountry": "United Kingdom",
+      "yearFounded": "2024",
+      "thesisAlignment": 86,
+      "thesisRationale": "Same target market and estuary thesis, with a behind-the-meter pilot already signed.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 83,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 210,
+      "mirroredFromCompanyId": 106,
+      "mirroredFromName": "Kindly Labs",
+      "fundId": "yc",
+      "name": "Solera Health",
+      "primaryDomain": "solera.health",
+      "description": "Voice agent for psych intake — DEA-compliant audit trail.",
+      "fundingDate": "2026-03-01",
+      "roundType": "pre_seed",
+      "roundAmountUsd": 1900000,
+      "totalInvestmentUsd": 1900000,
+      "investors": [
+        "Goodwater Capital"
+      ],
+      "headcountTotal": 6,
+      "hqCity": "Austin",
+      "hqCountry": "United States",
+      "yearFounded": "2025",
+      "thesisAlignment": 84,
+      "thesisRationale": "Same intake wedge with a stronger compliance angle for controlled-substance prescribers.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 85,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 211,
+      "mirroredFromCompanyId": 106,
+      "mirroredFromName": "Kindly Labs",
+      "fundId": "yc",
+      "name": "Calmwave",
+      "primaryDomain": "calmwave.app",
+      "description": "Voice AI scheduling for teletherapy clinics.",
+      "fundingDate": "2026-02-12",
+      "roundType": "seed",
+      "roundAmountUsd": 3100000,
+      "totalInvestmentUsd": 3100000,
+      "investors": [
+        "Floodgate"
+      ],
+      "headcountTotal": 8,
+      "hqCity": "Los Angeles",
+      "hqCountry": "United States",
+      "yearFounded": "2024",
+      "thesisAlignment": 71,
+      "thesisRationale": "Adjacent — scheduling, not full intake. Lower clinical risk but smaller wedge.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 72,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    },
+    {
+      "crustdataCompanyId": 212,
+      "mirroredFromCompanyId": 101,
+      "mirroredFromName": "Stitch AI",
+      "fundId": "a16z",
+      "name": "Trustlens",
+      "primaryDomain": "trustlens.dev",
+      "description": "Eval and red-teaming for production agentic apps.",
+      "fundingDate": "2026-03-12",
+      "roundType": "pre_seed",
+      "roundAmountUsd": 1800000,
+      "totalInvestmentUsd": 1800000,
+      "investors": [
+        "Susa Ventures"
+      ],
+      "headcountTotal": 4,
+      "hqCity": "London",
+      "hqCountry": "United Kingdom",
+      "yearFounded": "2025",
+      "thesisAlignment": 76,
+      "thesisRationale": "Production-side angle complements Stitch's CI-side; thesis still aligned.",
+      "timingMatch": true,
+      "llmRedFlag": null,
+      "valuationProxy": {
+        "score": 80,
+        "signals": [
+          "small headcount",
+          "early round"
+        ]
+      }
+    }
+  ],
+  "traction": [
+    {
+      "crustdataCompanyId": 201,
+      "headcountMomentum": 78,
+      "hiringVelocity": 88,
+      "webTrafficScore": 60,
+      "seniorHireSignal": 70,
+      "composite": 74,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "+3 → 5 (+66%)",
+          "confidence": "high"
+        },
+        {
+          "label": "Open roles",
+          "value": "4 (2 GTM)",
+          "confidence": "high"
+        },
+        {
+          "label": "Senior hire",
+          "value": "Ex-Stripe staff eng",
+          "confidence": "high"
+        },
+        {
+          "label": "Web traffic",
+          "value": "12k MAU est.",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 202,
+      "headcountMomentum": 60,
+      "hiringVelocity": 65,
+      "webTrafficScore": 55,
+      "seniorHireSignal": 50,
+      "composite": 58,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "+2 (+22%)",
+          "confidence": "medium"
+        },
+        {
+          "label": "Open roles",
+          "value": "3",
+          "confidence": "medium"
+        },
+        {
+          "label": "Web traffic",
+          "value": "8k MAU",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 203,
+      "headcountMomentum": 90,
+      "hiringVelocity": 72,
+      "webTrafficScore": 78,
+      "seniorHireSignal": 80,
+      "composite": 80,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "+4 (+100%)",
+          "confidence": "high"
+        },
+        {
+          "label": "Senior hire",
+          "value": "Ex-Boston Dynamics PM",
+          "confidence": "high"
+        },
+        {
+          "label": "Open roles",
+          "value": "5 (2 robotics eng)",
+          "confidence": "high"
+        },
+        {
+          "label": "Web traffic",
+          "value": "rapid month-over-month growth",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 204,
+      "headcountMomentum": 40,
+      "hiringVelocity": 30,
+      "webTrafficScore": 30,
+      "seniorHireSignal": 20,
+      "composite": 30,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "flat",
+          "confidence": "low"
+        },
+        {
+          "label": "Open roles",
+          "value": "1",
+          "confidence": "medium"
+        },
+        {
+          "label": "Web traffic",
+          "value": "no signal",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 205,
+      "headcountMomentum": 78,
+      "hiringVelocity": 88,
+      "webTrafficScore": 60,
+      "seniorHireSignal": 70,
+      "composite": 74,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "+3 → 5 (+66%)",
+          "confidence": "high"
+        },
+        {
+          "label": "Open roles",
+          "value": "4 (2 GTM)",
+          "confidence": "high"
+        },
+        {
+          "label": "Senior hire",
+          "value": "Ex-Stripe staff eng",
+          "confidence": "high"
+        },
+        {
+          "label": "Web traffic",
+          "value": "12k MAU est.",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 206,
+      "headcountMomentum": 60,
+      "hiringVelocity": 65,
+      "webTrafficScore": 55,
+      "seniorHireSignal": 50,
+      "composite": 58,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "+2 (+22%)",
+          "confidence": "medium"
+        },
+        {
+          "label": "Open roles",
+          "value": "3",
+          "confidence": "medium"
+        },
+        {
+          "label": "Web traffic",
+          "value": "8k MAU",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 207,
+      "headcountMomentum": 90,
+      "hiringVelocity": 72,
+      "webTrafficScore": 78,
+      "seniorHireSignal": 80,
+      "composite": 80,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "+4 (+100%)",
+          "confidence": "high"
+        },
+        {
+          "label": "Senior hire",
+          "value": "Ex-Boston Dynamics PM",
+          "confidence": "high"
+        },
+        {
+          "label": "Open roles",
+          "value": "5 (2 robotics eng)",
+          "confidence": "high"
+        },
+        {
+          "label": "Web traffic",
+          "value": "rapid month-over-month growth",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 208,
+      "headcountMomentum": 40,
+      "hiringVelocity": 30,
+      "webTrafficScore": 30,
+      "seniorHireSignal": 20,
+      "composite": 30,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "flat",
+          "confidence": "low"
+        },
+        {
+          "label": "Open roles",
+          "value": "1",
+          "confidence": "medium"
+        },
+        {
+          "label": "Web traffic",
+          "value": "no signal",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 209,
+      "headcountMomentum": 78,
+      "hiringVelocity": 88,
+      "webTrafficScore": 60,
+      "seniorHireSignal": 70,
+      "composite": 74,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "+3 → 5 (+66%)",
+          "confidence": "high"
+        },
+        {
+          "label": "Open roles",
+          "value": "4 (2 GTM)",
+          "confidence": "high"
+        },
+        {
+          "label": "Senior hire",
+          "value": "Ex-Stripe staff eng",
+          "confidence": "high"
+        },
+        {
+          "label": "Web traffic",
+          "value": "12k MAU est.",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 210,
+      "headcountMomentum": 60,
+      "hiringVelocity": 65,
+      "webTrafficScore": 55,
+      "seniorHireSignal": 50,
+      "composite": 58,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "+2 (+22%)",
+          "confidence": "medium"
+        },
+        {
+          "label": "Open roles",
+          "value": "3",
+          "confidence": "medium"
+        },
+        {
+          "label": "Web traffic",
+          "value": "8k MAU",
+          "confidence": "low"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 211,
+      "headcountMomentum": 90,
+      "hiringVelocity": 72,
+      "webTrafficScore": 78,
+      "seniorHireSignal": 80,
+      "composite": 80,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "+4 (+100%)",
+          "confidence": "high"
+        },
+        {
+          "label": "Senior hire",
+          "value": "Ex-Boston Dynamics PM",
+          "confidence": "high"
+        },
+        {
+          "label": "Open roles",
+          "value": "5 (2 robotics eng)",
+          "confidence": "high"
+        },
+        {
+          "label": "Web traffic",
+          "value": "rapid month-over-month growth",
+          "confidence": "medium"
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 212,
+      "headcountMomentum": 40,
+      "hiringVelocity": 30,
+      "webTrafficScore": 30,
+      "seniorHireSignal": 20,
+      "composite": 30,
+      "signals": [
+        {
+          "label": "Headcount growth (90d)",
+          "value": "flat",
+          "confidence": "low"
+        },
+        {
+          "label": "Open roles",
+          "value": "1",
+          "confidence": "medium"
+        },
+        {
+          "label": "Web traffic",
+          "value": "no signal",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "riskFlags": [
+    {
+      "crustdataCompanyId": 201,
+      "flags": [],
+      "totalPenalty": 0
+    },
+    {
+      "crustdataCompanyId": 202,
+      "flags": [],
+      "totalPenalty": 0
+    },
+    {
+      "crustdataCompanyId": 203,
+      "flags": [],
+      "totalPenalty": 0
+    },
+    {
+      "crustdataCompanyId": 204,
+      "flags": [
+        "No syndicate disclosed",
+        "Last round >12 months old"
+      ],
+      "totalPenalty": 10
+    },
+    {
+      "crustdataCompanyId": 205,
+      "flags": [],
+      "totalPenalty": 0
+    },
+    {
+      "crustdataCompanyId": 206,
+      "flags": [],
+      "totalPenalty": 0
+    },
+    {
+      "crustdataCompanyId": 207,
+      "flags": [],
+      "totalPenalty": 0
+    },
+    {
+      "crustdataCompanyId": 208,
+      "flags": [
+        "Overfunded for stage"
+      ],
+      "totalPenalty": 5
+    },
+    {
+      "crustdataCompanyId": 209,
+      "flags": [],
+      "totalPenalty": 0
+    },
+    {
+      "crustdataCompanyId": 210,
+      "flags": [],
+      "totalPenalty": 0
+    },
+    {
+      "crustdataCompanyId": 211,
+      "flags": [],
+      "totalPenalty": 0
+    },
+    {
+      "crustdataCompanyId": 212,
+      "flags": [],
+      "totalPenalty": 0
+    }
+  ],
+  "founders": [
+    {
+      "crustdataCompanyId": 201,
+      "composite": 78,
+      "averageScore": 76,
+      "hasRepeatOperator": true,
+      "founders": [
+        {
+          "name": "Lena Brandt",
+          "title": "Co-founder & CEO",
+          "headline": "Repeat founder; sold previous DevTools company to GitLab.",
+          "linkedinUrl": "https://linkedin.com/in/lena-brandt",
+          "rawSignals": {
+            "priorFounder": true,
+            "bigTechAlum": true,
+            "domainExperienceYears": 6,
+            "repeatCofounderPair": true,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "repeat-operator",
+          "composite": 82,
+          "highlights": [
+            "Ex-GitLab director (acquired)",
+            "Built GitLab CI's flake detection"
+          ],
+          "dossierHeadline": "Repeat founder; sold previous DevTools company to GitLab.",
+          "caveats": []
+        },
+        {
+          "name": "Yusuf Eren",
+          "title": "Co-founder & CEO",
+          "headline": "Ex-Datadog senior eng; led the synthetic-tests team.",
+          "linkedinUrl": "https://linkedin.com/in/yusuf-eren",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": true,
+            "domainExperienceYears": 3,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "technical-builder",
+          "composite": 70,
+          "highlights": [
+            "6 yrs Datadog observability",
+            "Open-source maintainer"
+          ],
+          "dossierHeadline": "Ex-Datadog senior eng; led the synthetic-tests team.",
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 203,
+      "composite": 84,
+      "averageScore": 84,
+      "hasRepeatOperator": true,
+      "founders": [
+        {
+          "name": "Anika Patel",
+          "title": "Co-founder & CEO",
+          "headline": "MIT cryo-EM lab → DeepMind protein team.",
+          "linkedinUrl": "https://linkedin.com/in/anika-patel",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": false,
+            "domainExperienceYears": 9,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "domain-expert",
+          "composite": 88,
+          "highlights": [
+            "First-author on AlphaFold-3 follow-up",
+            "8 yrs structural biology"
+          ],
+          "dossierHeadline": "MIT cryo-EM lab → DeepMind protein team.",
+          "caveats": []
+        },
+        {
+          "name": "Marco Russo",
+          "title": "Co-founder & CEO",
+          "headline": "Repeat bio-AI founder; previous co. acquired by Recursion.",
+          "linkedinUrl": "https://linkedin.com/in/marco-russo",
+          "rawSignals": {
+            "priorFounder": true,
+            "bigTechAlum": true,
+            "domainExperienceYears": 6,
+            "repeatCofounderPair": true,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "repeat-operator",
+          "composite": 80,
+          "highlights": [
+            "Acquired by Recursion 2023",
+            "Ex-Genentech ML lead"
+          ],
+          "dossierHeadline": "Repeat bio-AI founder; previous co. acquired by Recursion.",
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 205,
+      "composite": 80,
+      "averageScore": 79,
+      "hasRepeatOperator": false,
+      "founders": [
+        {
+          "name": "Priya Aiyar",
+          "title": "Co-founder & CEO",
+          "headline": "CMU robotics PhD; built bimanual stack at Toyota Research.",
+          "linkedinUrl": "https://linkedin.com/in/priya-aiyar",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": true,
+            "domainExperienceYears": 3,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "technical-builder",
+          "composite": 81,
+          "highlights": [
+            "TRI bimanual policies",
+            "3 robotics patents"
+          ],
+          "dossierHeadline": "CMU robotics PhD; built bimanual stack at Toyota Research.",
+          "caveats": []
+        },
+        {
+          "name": "Diego Cano",
+          "title": "Co-founder & CEO",
+          "headline": "10 yrs running a job-shop in Pittsburgh; lived the buyer pain.",
+          "linkedinUrl": "https://linkedin.com/in/diego-cano",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": false,
+            "domainExperienceYears": 9,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "domain-expert",
+          "composite": 77,
+          "highlights": [
+            "Ran a 14-person fab shop",
+            "Customer #0 of his own product"
+          ],
+          "dossierHeadline": "10 yrs running a job-shop in Pittsburgh; lived the buyer pain.",
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 207,
+      "composite": 73,
+      "averageScore": 73,
+      "hasRepeatOperator": false,
+      "founders": [
+        {
+          "name": "Brandon Lee",
+          "title": "Co-founder & CEO",
+          "headline": "Ex-Convoy ops lead with 4 yrs in cold-chain dispatch.",
+          "linkedinUrl": "https://linkedin.com/in/brandon-lee",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": false,
+            "domainExperienceYears": 9,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "domain-expert",
+          "composite": 75,
+          "highlights": [
+            "Built Convoy refrigerated unit",
+            "Knows the broker pain personally"
+          ],
+          "dossierHeadline": "Ex-Convoy ops lead with 4 yrs in cold-chain dispatch.",
+          "caveats": []
+        },
+        {
+          "name": "Maya Singh",
+          "title": "Co-founder & CEO",
+          "headline": "Ex-Doordash logistics ML engineer.",
+          "linkedinUrl": "https://linkedin.com/in/maya-singh",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": true,
+            "domainExperienceYears": 3,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "technical-builder",
+          "composite": 71,
+          "highlights": [
+            "Doordash routing ML"
+          ],
+          "dossierHeadline": "Ex-Doordash logistics ML engineer.",
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 209,
+      "composite": 76,
+      "averageScore": 76,
+      "hasRepeatOperator": false,
+      "founders": [
+        {
+          "name": "Dr. Aileen MacLeod",
+          "title": "Co-founder & CEO",
+          "headline": "12 yrs marine engineering at Wave Energy Scotland.",
+          "linkedinUrl": "https://linkedin.com/in/dr.-aileen-macleod",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": false,
+            "domainExperienceYears": 9,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "domain-expert",
+          "composite": 80,
+          "highlights": [
+            "Wave Energy Scotland CTO",
+            "5 patents on turbine blades"
+          ],
+          "dossierHeadline": "12 yrs marine engineering at Wave Energy Scotland.",
+          "caveats": []
+        },
+        {
+          "name": "Tom Rivera",
+          "title": "Co-founder & CEO",
+          "headline": "Ex-SpaceX structures; left to do climate hardware.",
+          "linkedinUrl": "https://linkedin.com/in/tom-rivera",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": true,
+            "domainExperienceYears": 3,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "technical-builder",
+          "composite": 72,
+          "highlights": [
+            "Falcon 9 structures team"
+          ],
+          "dossierHeadline": "Ex-SpaceX structures; left to do climate hardware.",
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 210,
+      "composite": 79,
+      "averageScore": 78,
+      "hasRepeatOperator": true,
+      "founders": [
+        {
+          "name": "Dr. Naomi Wexler",
+          "title": "Co-founder & CEO",
+          "headline": "Psychiatrist + repeat founder (sold prev. EHR co. to athenahealth).",
+          "linkedinUrl": "https://linkedin.com/in/dr.-naomi-wexler",
+          "rawSignals": {
+            "priorFounder": true,
+            "bigTechAlum": true,
+            "domainExperienceYears": 6,
+            "repeatCofounderPair": true,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "repeat-operator",
+          "composite": 85,
+          "highlights": [
+            "athenahealth acquisition",
+            "Practiced psychiatrist for 8 yrs"
+          ],
+          "dossierHeadline": "Psychiatrist + repeat founder (sold prev. EHR co. to athenahealth).",
+          "caveats": []
+        },
+        {
+          "name": "Sam Okonkwo",
+          "title": "Co-founder & CEO",
+          "headline": "Ex-Anthropic safety researcher.",
+          "linkedinUrl": "https://linkedin.com/in/sam-okonkwo",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": true,
+            "domainExperienceYears": 3,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "technical-builder",
+          "composite": 72,
+          "highlights": [
+            "Anthropic safety team",
+            "Voice ML at Apple"
+          ],
+          "dossierHeadline": "Ex-Anthropic safety researcher.",
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 206,
+      "composite": 70,
+      "averageScore": 70,
+      "hasRepeatOperator": false,
+      "founders": [
+        {
+          "name": "Erin Walsh",
+          "title": "Co-founder & CEO",
+          "headline": "Ex-Universal Robots applications engineer.",
+          "linkedinUrl": "https://linkedin.com/in/erin-walsh",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": true,
+            "domainExperienceYears": 3,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "technical-builder",
+          "composite": 72,
+          "highlights": [
+            "UR applications team"
+          ],
+          "dossierHeadline": "Ex-Universal Robots applications engineer.",
+          "caveats": []
+        }
+      ]
+    },
+    {
+      "crustdataCompanyId": 202,
+      "composite": 65,
+      "averageScore": 65,
+      "hasRepeatOperator": false,
+      "founders": [
+        {
+          "name": "Hugo Tanaka",
+          "title": "Co-founder & CEO",
+          "headline": "First-time founder; ex-Hugging Face research engineer.",
+          "linkedinUrl": "https://linkedin.com/in/hugo-tanaka",
+          "rawSignals": {
+            "priorFounder": false,
+            "bigTechAlum": false,
+            "domainExperienceYears": 3,
+            "repeatCofounderPair": false,
+            "topUniversity": true,
+            "socialPresence": true,
+            "recentlyChangedJob": true
+          },
+          "archetype": "first-time-founder",
+          "composite": 64,
+          "highlights": [
+            "HF eval team",
+            "Maintains popular OSS lib"
+          ],
+          "dossierHeadline": "First-time founder; ex-Hugging Face research engineer.",
+          "caveats": []
+        }
+      ]
+    }
+  ],
+  "portfolio": {
+    "entries": [
+      {
+        "crustdataCompanyId": 203,
+        "name": "Cryolab AI",
+        "primaryDomain": "cryolab.ai",
+        "fundId": "founders-fund",
+        "mirroredFromName": "Helix Bio",
+        "thesisOneLiner": "Generative biology becomes IP-defensible only with proprietary wet-lab data.",
+        "thesisCluster": 1,
+        "stage": "seed",
+        "hqCountry": "United States",
+        "scores": {
+          "thesisAlignment": 91,
+          "founderScore": 84,
+          "tractionScore": 80,
+          "valuationProxy": 80,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 84.96
+        },
+        "status": "invest",
+        "chequeUsd": 93333,
+        "allocationRationale": "Conviction cheque — top-quartile composite, repeat-operator on team, cleaner thesis fit than the mirrored deal."
+      },
+      {
+        "crustdataCompanyId": 205,
+        "name": "Polyarm",
+        "primaryDomain": "polyarm.co",
+        "fundId": "spc",
+        "mirroredFromName": "Tessera Robotics",
+        "thesisOneLiner": "Foundation-model robotics wins the SMB long tail before factories.",
+        "thesisCluster": 2,
+        "stage": "pre_seed",
+        "hqCountry": "United States",
+        "scores": {
+          "thesisAlignment": 90,
+          "founderScore": 80,
+          "tractionScore": 74,
+          "valuationProxy": 82,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 82.84
+        },
+        "status": "invest",
+        "chequeUsd": 93333,
+        "allocationRationale": "Conviction cheque — top-quartile composite, repeat-operator on team, cleaner thesis fit than the mirrored deal."
+      },
+      {
+        "crustdataCompanyId": 201,
+        "name": "Snapeval",
+        "primaryDomain": "snapeval.dev",
+        "fundId": "a16z",
+        "mirroredFromName": "Stitch AI",
+        "thesisOneLiner": "LLM apps are software, and software needs CI.",
+        "thesisCluster": 0,
+        "stage": "pre_seed",
+        "hqCountry": "Germany",
+        "scores": {
+          "thesisAlignment": 88,
+          "founderScore": 78,
+          "tractionScore": 74,
+          "valuationProxy": 84,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 82
+        },
+        "status": "invest",
+        "chequeUsd": 93333,
+        "allocationRationale": "Conviction cheque — top-quartile composite, repeat-operator on team, cleaner thesis fit than the mirrored deal."
+      },
+      {
+        "crustdataCompanyId": 207,
+        "name": "Chillship",
+        "primaryDomain": "chillship.app",
+        "fundId": "yc",
+        "mirroredFromName": "PorterRoad",
+        "thesisOneLiner": "Software eats the long tail of US trucking — starting with cold chain.",
+        "thesisCluster": 3,
+        "stage": "pre_seed",
+        "hqCountry": "United States",
+        "scores": {
+          "thesisAlignment": 87,
+          "founderScore": 73,
+          "tractionScore": 80,
+          "valuationProxy": 87,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 81.94
+        },
+        "status": "invest",
+        "chequeUsd": 40000,
+        "allocationRationale": "Spray cheque — strong thesis fit, smaller reserve to maintain power-law diversification."
+      },
+      {
+        "crustdataCompanyId": 209,
+        "name": "Tideturbine",
+        "primaryDomain": "tideturbine.eu",
+        "fundId": "founders-fund",
+        "mirroredFromName": "Morwenna",
+        "thesisOneLiner": "Tidal stream is the only renewable that's both 24/7 and forecastable.",
+        "thesisCluster": 4,
+        "stage": "seed",
+        "hqCountry": "United Kingdom",
+        "scores": {
+          "thesisAlignment": 86,
+          "founderScore": 76,
+          "tractionScore": 74,
+          "valuationProxy": 83,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 80.67999999999999
+        },
+        "status": "invest",
+        "chequeUsd": 40000,
+        "allocationRationale": "Spray cheque — strong thesis fit, smaller reserve to maintain power-law diversification."
+      },
+      {
+        "crustdataCompanyId": 210,
+        "name": "Solera Health",
+        "primaryDomain": "solera.health",
+        "fundId": "yc",
+        "mirroredFromName": "Kindly Labs",
+        "thesisOneLiner": "Behavioral health intake is the wedge for healthcare voice agents.",
+        "thesisCluster": 5,
+        "stage": "pre_seed",
+        "hqCountry": "United States",
+        "scores": {
+          "thesisAlignment": 84,
+          "founderScore": 79,
+          "tractionScore": 58,
+          "valuationProxy": 85,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 78.25999999999999
+        },
+        "status": "invest",
+        "chequeUsd": 40000,
+        "allocationRationale": "Spray cheque — strong thesis fit, smaller reserve to maintain power-law diversification."
+      },
+      {
+        "crustdataCompanyId": 206,
+        "name": "Loophand",
+        "primaryDomain": "loophand.io",
+        "fundId": "spc",
+        "mirroredFromName": "Tessera Robotics",
+        "thesisOneLiner": "Foundation-model robotics wins the SMB long tail before factories.",
+        "thesisCluster": 2,
+        "stage": "pre_seed",
+        "hqCountry": "Canada",
+        "scores": {
+          "thesisAlignment": 81,
+          "founderScore": 70,
+          "tractionScore": 58,
+          "valuationProxy": 86,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 75.12
+        },
+        "status": "watch",
+        "chequeUsd": 0,
+        "allocationRationale": "Composite in 50–64 band; revisit after next funding signal."
+      },
+      {
+        "crustdataCompanyId": 202,
+        "name": "Promptkit",
+        "primaryDomain": "promptkit.io",
+        "fundId": "a16z",
+        "mirroredFromName": "Stitch AI",
+        "thesisOneLiner": "LLM apps are software, and software needs CI.",
+        "thesisCluster": 0,
+        "stage": "seed",
+        "hqCountry": "United States",
+        "scores": {
+          "thesisAlignment": 78,
+          "founderScore": 65,
+          "tractionScore": 58,
+          "valuationProxy": 70,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 70.3
+        },
+        "status": "watch",
+        "chequeUsd": 0,
+        "allocationRationale": "Composite in 50–64 band; revisit after next funding signal."
+      },
+      {
+        "crustdataCompanyId": 211,
+        "name": "Calmwave",
+        "primaryDomain": "calmwave.app",
+        "fundId": "yc",
+        "mirroredFromName": "Kindly Labs",
+        "thesisOneLiner": "Behavioral health intake is the wedge for healthcare voice agents.",
+        "thesisCluster": 5,
+        "stage": "seed",
+        "hqCountry": "United States",
+        "scores": {
+          "thesisAlignment": 71,
+          "founderScore": 55,
+          "tractionScore": 80,
+          "valuationProxy": 72,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 69.74
+        },
+        "status": "watch",
+        "chequeUsd": 0,
+        "allocationRationale": "Composite in 50–64 band; revisit after next funding signal."
+      },
+      {
+        "crustdataCompanyId": 212,
+        "name": "Trustlens",
+        "primaryDomain": "trustlens.dev",
+        "fundId": "a16z",
+        "mirroredFromName": "Stitch AI",
+        "thesisOneLiner": "LLM apps are software, and software needs CI.",
+        "thesisCluster": 0,
+        "stage": "pre_seed",
+        "hqCountry": "United Kingdom",
+        "scores": {
+          "thesisAlignment": 76,
+          "founderScore": 55,
+          "tractionScore": 30,
+          "valuationProxy": 80,
+          "dataConfidence": 85,
+          "riskFlagCount": 0,
+          "composite": 63.620000000000005
+        },
+        "status": "watch",
+        "chequeUsd": 0,
+        "allocationRationale": "Composite in 50–64 band; revisit after next funding signal."
+      },
+      {
+        "crustdataCompanyId": 204,
+        "name": "Antifold",
+        "primaryDomain": "antifold.bio",
+        "fundId": "founders-fund",
+        "mirroredFromName": "Helix Bio",
+        "thesisOneLiner": "Generative biology becomes IP-defensible only with proprietary wet-lab data.",
+        "thesisCluster": 1,
+        "stage": "pre_seed",
+        "hqCountry": "United Kingdom",
+        "scores": {
+          "thesisAlignment": 64,
+          "founderScore": 55,
+          "tractionScore": 30,
+          "valuationProxy": 88,
+          "dataConfidence": 85,
+          "riskFlagCount": 2,
+          "composite": 51.059999999999995
+        },
+        "status": "skip",
+        "chequeUsd": 0,
+        "allocationRationale": "Composite below 50 — wedge or risk profile not yet credible."
+      },
+      {
+        "crustdataCompanyId": 208,
+        "name": "Boxhaul",
+        "primaryDomain": "boxhaul.com",
+        "fundId": "yc",
+        "mirroredFromName": "PorterRoad",
+        "thesisOneLiner": "Software eats the long tail of US trucking — starting with cold chain.",
+        "thesisCluster": 3,
+        "stage": "seed",
+        "hqCountry": "United States",
+        "scores": {
+          "thesisAlignment": 55,
+          "founderScore": 55,
+          "tractionScore": 30,
+          "valuationProxy": 65,
+          "dataConfidence": 85,
+          "riskFlagCount": 1,
+          "composite": 49.5
+        },
+        "status": "skip",
+        "chequeUsd": 0,
+        "allocationRationale": "Composite below 50 — wedge or risk profile not yet credible."
+      }
+    ],
+    "totalDeployed": 399999,
+    "reservesHeld": 100000,
+    "byStatus": {
+      "invest": 6,
+      "watch": 4,
+      "skip": 2
+    },
+    "byThesisCluster": [
+      {
+        "clusterId": 0,
+        "count": 1,
+        "capitalShare": 0.23333308333270833,
+        "thesisLabel": "LLM apps are software, and software needs CI."
+      },
+      {
+        "clusterId": 1,
+        "count": 1,
+        "capitalShare": 0.23333308333270833,
+        "thesisLabel": "Generative biology becomes IP-defensible only with proprietary wet-lab data."
+      },
+      {
+        "clusterId": 2,
+        "count": 1,
+        "capitalShare": 0.23333308333270833,
+        "thesisLabel": "Foundation-model robotics wins the SMB long tail before factories."
+      },
+      {
+        "clusterId": 3,
+        "count": 1,
+        "capitalShare": 0.100000250000625,
+        "thesisLabel": "Software eats the long tail of US trucking — starting with cold chain."
+      },
+      {
+        "clusterId": 4,
+        "count": 1,
+        "capitalShare": 0.100000250000625,
+        "thesisLabel": "Tidal stream is the only renewable that's both 24/7 and forecastable."
+      },
+      {
+        "clusterId": 5,
+        "count": 1,
+        "capitalShare": 0.100000250000625,
+        "thesisLabel": "Behavioral health intake is the wedge for healthcare voice agents."
+      }
+    ],
+    "byGeo": {
+      "United States": 0.6666666666666666,
+      "Germany": 0.23333308333270833,
+      "United Kingdom": 0.100000250000625
+    },
+    "byStage": {
+      "seed": 0.3333333333333333,
+      "pre_seed": 0.6666666666666666
+    },
+    "warnings": []
+  },
+  "apiCalls": [
+    {
+      "endpoint": "/screener/company/search",
+      "description": "a16z recent investments",
+      "durationMs": 612,
+      "cached": false,
+      "estimatedCredits": 1,
+      "resultCount": 5
+    },
+    {
+      "endpoint": "/screener/company/enrich",
+      "description": "Mirrored deal batch enrichment (6 companies)",
+      "durationMs": 845,
+      "cached": false,
+      "estimatedCredits": 1.2,
+      "resultCount": 6
+    },
+    {
+      "endpoint": "/web/enrich/live",
+      "description": "Fetch ycombinator.com/companies?batch=W26",
+      "durationMs": 1290,
+      "cached": false,
+      "estimatedCredits": 0.5
+    },
+    {
+      "endpoint": "/web/enrich/live",
+      "description": "Fetch southparkcommons.com/founder-fellowship",
+      "durationMs": 1880,
+      "cached": true,
+      "estimatedCredits": 0
+    },
+    {
+      "endpoint": "/screener/company/search",
+      "description": "Counterparts for Stitch AI thesis",
+      "durationMs": 740,
+      "cached": false,
+      "estimatedCredits": 1,
+      "resultCount": 28
+    },
+    {
+      "endpoint": "/screener/company/search",
+      "description": "Counterparts for Helix Bio thesis",
+      "durationMs": 690,
+      "cached": false,
+      "estimatedCredits": 1,
+      "resultCount": 22
+    },
+    {
+      "endpoint": "/screener/company/search",
+      "description": "Counterparts for Tessera Robotics thesis",
+      "durationMs": 720,
+      "cached": false,
+      "estimatedCredits": 1,
+      "resultCount": 18
+    },
+    {
+      "endpoint": "/screener/company/search",
+      "description": "Counterparts for PorterRoad thesis",
+      "durationMs": 705,
+      "cached": false,
+      "estimatedCredits": 1,
+      "resultCount": 24
+    },
+    {
+      "endpoint": "/screener/company/search",
+      "description": "Counterparts for Morwenna thesis",
+      "durationMs": 660,
+      "cached": false,
+      "estimatedCredits": 1,
+      "resultCount": 11
+    },
+    {
+      "endpoint": "/screener/company/search",
+      "description": "Counterparts for Kindly Labs thesis",
+      "durationMs": 670,
+      "cached": false,
+      "estimatedCredits": 1,
+      "resultCount": 19
+    },
+    {
+      "endpoint": "/screener/company/enrich",
+      "description": "Counterpart enrichment batch (12)",
+      "durationMs": 1240,
+      "cached": false,
+      "estimatedCredits": 2.4,
+      "resultCount": 12
+    },
+    {
+      "endpoint": "/screener/person/enrich",
+      "description": "Founder enrichment batch (15)",
+      "durationMs": 1830,
+      "cached": false,
+      "estimatedCredits": 1.5,
+      "resultCount": 15
+    }
+  ],
+  "reasoning": [
+    {
+      "step": "step2",
+      "companyName": "Stitch AI",
+      "rationale": "Enrich shows hires from GitLab CI + Datadog observability. Combined with the round investor pattern (a16z + Lux), the implicit bet is on an infra-side LLM eval product, not consumer prompts."
+    },
+    {
+      "step": "step2",
+      "companyName": "Helix Bio",
+      "rationale": "Cryo-EM job postings + ARCH on the cap table point to a wet-lab-first positioning. Sequence-only models are flagged as anti-thesis."
+    },
+    {
+      "step": "step2",
+      "companyName": "Tessera Robotics",
+      "rationale": "SPC fellowship cohort + Lux co-investor. Headcount mostly applied robotics, no humanoid signals → SMB-first thesis."
+    },
+    {
+      "step": "step3",
+      "companyName": "Snapeval",
+      "rationale": "Open-source eval harness with CI-first positioning out of Berlin. Tiny team but exact wedge match. Strongest counterpart for Stitch."
+    },
+    {
+      "step": "step3",
+      "companyName": "Cryolab AI",
+      "rationale": "Data-co-op moat is a credible variation on Helix's wet-lab thesis; seed cheque size lets us mirror conviction at 1/4 the valuation."
+    },
+    {
+      "step": "step3",
+      "companyName": "Antifold",
+      "rationale": "Sequence-only — flagged as anti-thesis per Helix's red-flag list. Kept on watchlist only."
+    },
+    {
+      "step": "step5",
+      "companyName": "Cryolab AI",
+      "rationale": "Anika Patel: cryo-EM PhD + DeepMind protein team. Marco Russo: prior bio-AI exit to Recursion. Repeat-operator + domain-expert pairing — top decile founder team for this thesis."
+    },
+    {
+      "step": "step5",
+      "companyName": "Snapeval",
+      "rationale": "Lena Brandt previously sold a DevTools co. to GitLab and personally built CI flake detection — directly the wedge. Repeat operator with deep domain context."
+    }
+  ],
+  "totalCredits": 12.6,
+  "notes": [
+    "Demo fixture generated by scripts/generate-demo-fixture.ts"
+  ]
+}

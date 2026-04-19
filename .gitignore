@@ -12,6 +12,7 @@ build/
 dist/
 coverage/
 .turbo/
+tsconfig.tsbuildinfo
 
 # local caches
 .cache/
