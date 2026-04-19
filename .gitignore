@@ -1,0 +1,37 @@
+.DS_Store
+
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# builds
+build/
+dist/
+coverage/
+.turbo/
+
+# local caches
+.cache/
+
+# env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor files
+.idea/
+.vscode/
+*.swp
+*.swo
