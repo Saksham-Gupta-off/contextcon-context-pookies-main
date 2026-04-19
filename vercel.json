@@ -1,0 +1,12 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "functions": {
+    "app/api/run/route.ts": {
+      "maxDuration": 300
+    },
+    "app/api/dossier/[id]/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}
