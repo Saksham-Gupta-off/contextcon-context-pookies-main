@@ -17,6 +17,9 @@ tsconfig.tsbuildinfo
 # local caches
 .cache/
 
+# vercel
+.vercel/
+
 # env files
 .env
 .env.local

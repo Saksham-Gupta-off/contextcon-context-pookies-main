@@ -1,8 +1,9 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
+import { cacheSubdir } from "@/lib/cachePaths";
 import type { RunRecord } from "@/lib/pipeline/types";
 
-const RUNS_ROOT = path.join(process.cwd(), ".cache", "runs");
+const RUNS_ROOT = cacheSubdir("runs");
 const FIXTURE_PATH = path.join(process.cwd(), "lib", "fixtures", "demo-run.json");
 
 export async function loadRun(runId?: string): Promise<RunRecord | null> {

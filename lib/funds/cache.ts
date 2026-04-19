@@ -1,8 +1,9 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import type { FundId } from "@/lib/funds/types";
+import { cacheSubdir } from "@/lib/cachePaths";
 
-const CACHE_ROOT = path.join(process.cwd(), ".cache", "funds");
+const CACHE_ROOT = cacheSubdir("funds");
 const KEYWORD_CACHE_PATH = path.join(CACHE_ROOT, "keyword-resolutions.json");
 
 export type FundRuntimeCache = {

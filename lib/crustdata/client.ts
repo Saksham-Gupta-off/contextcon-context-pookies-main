@@ -1,6 +1,7 @@
 import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { CACHE_ROOT } from "@/lib/cachePaths";
 import { requireEnv } from "@/lib/env";
 
 const API_VERSION = "2025-11-01";
@@ -142,7 +143,7 @@ export class CrustdataClient {
   private readonly queue = new IntervalQueue();
   private readonly cacheRoot: string;
 
-  constructor(cacheRoot = path.join(process.cwd(), ".cache")) {
+  constructor(cacheRoot = CACHE_ROOT) {
     this.cacheRoot = cacheRoot;
   }
 

@@ -1,5 +1,6 @@
 import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { cacheSubdir } from "@/lib/cachePaths";
 import type { PipelineEvent } from "@/lib/pipeline/events";
 import type {
   ApiCallSnapshot,
@@ -144,7 +145,7 @@ function countResults(payload: unknown): number | undefined {
   return undefined;
 }
 
-const RUNS_ROOT = path.join(process.cwd(), ".cache", "runs");
+const RUNS_ROOT = cacheSubdir("runs");
 
 export async function persistRun(collector: RunCollector) {
   if (!collector.portfolio) {

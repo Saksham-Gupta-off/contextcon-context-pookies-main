@@ -22,6 +22,8 @@ import { replayDemoRun } from "@/lib/pipeline/demoReplay";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
+// Vercel: SSE pipeline can run 10–60s. Hobby caps at 60, Pro at 300.
+export const maxDuration = 300;
 
 export async function POST(request: Request) {
   const rawBody = (await request.json().catch(() => ({}))) ?? {};
